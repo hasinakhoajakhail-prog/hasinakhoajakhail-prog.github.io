@@ -1,70 +1,89 @@
 /* Global page styling */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   margin: 40px;
   line-height: 1.6;
-  background-color: white;
-  color: black;
+  background-color: #ffeef6; /* soft pink */
+  color: #333;
 }
 
 /* Header title */
 .header-title {
-  font-family: Arial, sans-serif;
-  color: black;
+  font-family: "Playfair Display", serif;
+  color: deeppink;
   text-align: center;
-  letter-spacing: 0;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
-/* Navigation list */
+/* Navigation bar */
+nav {
+  background-color: #ffd6e8; /* light pink bar */
+  padding: 12px 0;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
+  text-align: center;
 }
 
-/* Navigation items */
 nav li {
-  margin: 8px 0;
+  display: inline-block;
+  margin: 0 15px;
 }
 
-/* Navigation links (default browser style) */
 .nav-link {
-  color: blue;
+  color: #b3005e; /* deep rose */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-link:hover {
   text-decoration: underline;
 }
 
-/* Card sections (your current site has no card styling) */
+/* Card sections */
 .card {
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  box-shadow: none;
-  border-radius: 0;
+  background-color: white;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
 }
 
-/* Section titles (your current site uses default black text) */
+/* Section titles */
 .section-title {
-  color: black;
-  border: none;
-  padding: 0;
-  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  color: #c2185b;
+  border-bottom: 2px solid #ffb3d9;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
 }
 
-/* Highlight class (not used on your site) */
+/* Highlighted links */
 .highlight {
-  background-color: transparent;
-  padding: 0;
-  border-radius: 0;
+  background-color: #fff0f6;
+  padding: 3px 6px;
+  border-radius: 4px;
+  color: #b3005e;
+  font-weight: 600;
 }
 
-/* Buttons (not used on your site) */
+/* Buttons */
 .btn-primary {
-  background: none;
-  color: inherit;
-  border: 1px solid #333;
-  padding: 5px 10px;
-  border-radius: 4px;
+  background-color: #ff80bf;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-primary:hover {
-  background: #eee;
+  background-color: #ff4da6;
 }
