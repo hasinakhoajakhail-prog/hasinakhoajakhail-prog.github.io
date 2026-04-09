@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<head>
     <meta charset="UTF-8">
     <meta name="author" content="Hasina Khoajakhail">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hasina Khoajakhail – Web Portfolio</title>
 
-    <!-- External stylesheets -->
+    <!-- External stylesheet (your site only uses this one) -->
     <link rel="stylesheet" href="_css/format.css">
 
-    <!-- Embedded styles (3) -->
+    <!-- Embedded styles that match your live site -->
     <style>
-        /* Embedded 1: page background fallback */
         body {
             margin: 0;
         }
 
-        /* Embedded 2: nav list layout */
         nav ul {
             list-style-type: none;
             padding-left: 0;
-            text-align: center;
         }
 
-        /* Embedded 3: nav list items spacing */
         nav li {
-            display: inline-block;
-            margin: 0 10px;
+            margin: 8px 0;
         }
     </style>
 </head>
 
 <body>
-    <!-- Inline style 1: extra spacing + soft background behind heading -->
-    <h1 class="header-title" style="padding: 20px 0; background-color: #ffeef6;">
+
+    <h1 class="header-title" style="padding: 20px 0;">
         Hasina Khoajakhail – Course Web Portfolio
     </h1>
 
-    <!-- Inline style 2: centered intro text with max width -->
     <p style="max-width: 700px; margin: 20px auto; text-align: center;">
         Welcome! This website showcases my work from this quarter, including HTML labs, link practice,
         reports, and my personal website project. I will continue updating this site as I complete more assignments.
     </p>
 
-    <!-- Inline style 3: soft pink border around nav area -->
-    <nav class="nav-bar" style="border-top: 1px solid #ffd6e8; border-bottom: 1px solid #ffd6e8; padding: 10px 0;">
+    <nav>
         <ul>
             <li><a class="nav-link" href="index.html">Home</a></li>
             <li><a class="nav-link" href="labs/html_lab/">HTML Lab</a></li>
@@ -55,16 +47,16 @@
         </ul>
     </nav>
 
-    <main class="card" style="max-width: 800px; margin: 30px auto;">
+    <main>
         <h2 class="section-title">Portfolio Overview</h2>
         <p>
             This portfolio collects my STEM and web development work, including labs, reports, and my personal website
-            project. The design uses soft pink and aesthetic colors to keep the site clean, calm, and consistent.
+            project.
         </p>
 
         <p>
             You can also review my design decisions in my
-            <a href="style_guide.docx" class="highlight">Portfolio Style Guide</a>.
+            <a href="style_guide.docx">Portfolio Style Guide</a>.
         </p>
     </main>
 
@@ -73,5 +65,6 @@
             © 2026 Hasina Khoajakhail – Web Portfolio
         </p>
     </footer>
+
 </body>
 </html>
