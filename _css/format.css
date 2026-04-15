@@ -112,11 +112,22 @@ main .section-title {
 }
 
 footer {
-    text-align: left;
-    padding-left: 20px;
+  margin-top: 40px;
+  text-align: left;
+  padding-left: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer .footer-text {
-    margin: 2px 0;
-    padding: 0;
+  margin: 0;
+  padding: 2px 0;
 }
+
+footer .footer-text a {
+  color: #b3005e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
