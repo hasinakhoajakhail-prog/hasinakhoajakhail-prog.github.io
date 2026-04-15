@@ -121,3 +121,7 @@ footer .footer-text a {
   font-weight: 600;
 }
 
+footer .footer-text {
+  margin: 0;
+  padding: 2px 0;
+}
