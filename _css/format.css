@@ -93,7 +93,8 @@ nav li {
   height: auto;
   border-radius: 12px; 
   display: block;
-  margin: 20px 0; 
+  float: left; 
+  margin: 0 20px 20px 0; 
   padding: 6px;
   background-color: #ffe6f2;
   border: 2px solid #ffb3d9;
