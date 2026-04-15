@@ -88,13 +88,16 @@ nav li {
   background-color: #ff4da6;
 }  
 
+main {
+  text-align: left;
+}
+
 .profile-pic {
-  width: 120px;   
+  width: 120px;
   height: auto;
-  border-radius: 12px; 
-  display: block;
-  float: left; 
-  margin: 0 20px 20px 0; 
+  border-radius: 12px;
+  float: left;
+  margin: 0 20px 20px 0;
   padding: 6px;
   background-color: #ffe6f2;
   border: 2px solid #ffb3d9;
