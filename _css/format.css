@@ -114,6 +114,7 @@ main .section-title {
 footer {
   margin-top: 40px;
   text-align: left;
+  padding-left: 20px;
 }
 
 footer .footer-text {
