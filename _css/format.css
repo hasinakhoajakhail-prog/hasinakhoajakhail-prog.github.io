@@ -131,3 +131,15 @@ footer .footer-text a {
   text-decoration: none;
 }
 
+figure {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
