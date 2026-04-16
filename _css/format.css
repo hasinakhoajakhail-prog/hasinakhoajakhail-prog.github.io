@@ -60,9 +60,10 @@ main.card {
   background-color: white;
   padding-left: 25px;
   margin: 40px auto;
-  max-width: 1200px;
+  max-width: 1000px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+  min-height: 600px;
 }
 
 main.card p {
