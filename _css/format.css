@@ -112,17 +112,19 @@ main .section-title {
 }
 
 footer {
-  margin-top: 40px;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 25px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px 20px;
+  background-color: #ffeef6;
+  border-top-right-radius: 10px;
   text-align: left;
 }
 
 footer .footer-text {
   margin: 0;
   padding: 0;
+  line-height: 1.2;
 }
 
 footer .footer-text a {
@@ -130,6 +132,7 @@ footer .footer-text a {
   font-weight: 600;
   text-decoration: none;
 }
+
 
 
 figure {
