@@ -1,0 +1,41 @@
+/* Positioning of the Header, Nav, Main, Footer */
+
+body {
+    position: relative;        
+    min-width: 800px;          
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;    
+}
+
+main {
+    display: flex;
+    flex-direction: row;       
+}
+
+nav {
+    width: 200px;             
+    flex-shrink: 0;            
+}
+
+main > * {
+    flex-grow: 1;             
+}
+
+/* End Positioning of the Header, Nav, Main, Footer */
+
+
+/* Positioning of Client Login Nav box */
+
+nav#client {
+    position: absolute;
+    top: 140px;     /* adjust if needed */
+    right: 20px;    /* moves it to the right side */
+    width: 180px;   /* match your format.css width */
+}
+
+/* End Positioning of Client Login Nav box */
+
+
+
